@@ -13,7 +13,11 @@
 ## ---------------------------------------------------------------------------------------------------------------------------- 
 ## 
 ## 	Reference:
-##	      NONE
+##	      EDGE GWAS: 
+##	        Zhou, J. et al. Flexibly encoded GWAS identifies novel nonadditive SNPs in individuals of African and European ancestry.
+##	        medRxiv 2023.06.01.23290857; doi: https://doi.org/10.1101/2023.06.01.23290857 
+##	      EDGE GxG: 
+##	        Hall, M. A. et al. Novel EDGE encoding method enhances ability to identify genetic interactions. PLoS Genetics 17, e1009534 (2021).
 ## 				
 ##################################################################################################################################
 
@@ -21,9 +25,9 @@
 ## Create a pheno file for AFR
 # ------------------------------------- #
 import pandas as pd
-Pheno = pd.read_table("/{PATH}/pheno_nopcs_full_afr.txt",sep="\t")
+Pheno = pd.read_table("pheno_nopcs_full_afr.txt",sep="\t")
 
-pc_pcair = pd.read_table("/{PATH}/afr_cad_pcair_pcs.txt",sep="\t",header=None)
+pc_pcair = pd.read_table("afr_cad_pcair_pcs.txt",sep="\t",header=None)
 pc_pcair = pc_pcair.rename(columns={0: "IID", 1: "PC1", 2: "PC2", 3: "PC3", 4: "PC4", 5: "PC5", 6: "PC6", 7: "PC7", 8: "PC8", 9: "PC9", 
                        10: "PC10", 11: "PC11", 12: "PC12", 13: "PC13", 14: "PC14", 15: "PC15", 16: "PC16", 17: "PC17", 18: "PC18", 19: "PC19", 
                        20: "PC20", 21: "PC21", 22: "PC22", 23: "PC23", 24: "PC24", 25: "PC25", 26: "PC26", 27: "PC27", 28: "PC28", 29: "PC29", 
