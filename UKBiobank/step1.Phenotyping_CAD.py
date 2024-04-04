@@ -368,5 +368,5 @@ output_df = output_df[['FID','IID','sex','age_baseline','genotype_batch','Source
 output_df.to_csv('case_output_full.csv', sep='\t', na_rep='NA', quoting=3)
 
 # Upload result files
-!dx upload *.csv --path /Pheno/Whole/ --brief
-!dx upload *.png --path /Pheno/Whole/ --brief
+!dx upload *.csv --path /{PATH}/ --brief
+!dx upload *.png --path /{PATH}/ --brief
