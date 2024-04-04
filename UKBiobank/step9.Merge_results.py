@@ -14,7 +14,7 @@
 ## 
 ## 	Reference:
 ##	      EDGE GWAS: 
-##	        Zhou, J.  et al. Flexibly encoded GWAS identifies novel nonadditive SNPs in individuals of African and European ancestry.
+##	        Zhou, J. et al. Flexibly encoded GWAS identifies novel nonadditive SNPs in individuals of African and European ancestry.
 ##	        medRxiv 2023.06.01.23290857; doi: https://doi.org/10.1101/2023.06.01.23290857 
 ## 				
 ##################################################################################################################################
