@@ -164,19 +164,8 @@ def fit_linear_regression(data, outcome, covariates):
 
     return result_df
 
-# Iterate over each column chunk in df
-# Specify the path pattern for the CSV files (adjust as needed)
-#csv_path_pattern = 'chr9_{}.csv'
-
-# Specify the number of chunks (adjust based on the total number of chunks)
-#num_chunks = len(snp) // chunk_size + 1
-
-# Loop through the CSV files and apply "Later code" to each DataFrame
-#for i in range(num_chunks):
-#    # Read the CSV file
-#    df = pd.read_csv(csv_path_pattern.format(i), index_col='IID')
-#start_number = 20001  # replace with your desired starting number
-#end_number = len(G.coords['snp'].values)  # replace with your desired ending number
+#start_number = 0  # replace with your desired starting number if you would like to perform the analysis within certain region(s)
+#end_number = 20  # replace with your desired ending number if you would like to perform the analysis within certain region(s) 
 
 import warnings
 from statsmodels.tools.sm_exceptions import ConvergenceWarning
