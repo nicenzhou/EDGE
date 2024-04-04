@@ -21,6 +21,7 @@
 ## 				
 ##################################################################################################################################
 
+
 # ------------------------------------- #
 ## Python version check
 # ------------------------------------- #
@@ -43,6 +44,7 @@ import dxdata
 import pandas as pd
 import pyspark
 import re
+
 
 # ------------------------------------- #
 ## Data dispensing at the individual level for selected entities
@@ -191,6 +193,7 @@ df_qced['self_reported_ethnic_group'].unique()
 # write the merged data frame to a new CSV file
 df_qced.to_csv('ukbb_info_full.csv', sep='\t', na_rep='NA', quoting=3)
 
+
 # ------------------------------------- #
 ## Generate the PCA plot
 # ------------------------------------- #
@@ -234,6 +237,7 @@ print( df_qced.groupby(["sex", "self_reported_ethnic_group"])["self_reported_eth
 ukbb_pcs = df_qced[['FID','IID','PC1','PC2','PC3','PC4','PC5','PC6','PC7','PC8','PC9','PC10','PC11','PC12','PC13','PC14','PC15','PC16','PC17','PC18','PC19','PC20']]
 ukbb_pcs = ukbb_pcs.set_index('IID')
 ukbb_pcs.to_csv('ukbb_pcs_full.csv', sep='\t', na_rep='NA', quoting=3)
+
 
 # ------------------------------------- #
 # Identify the CAD cases
