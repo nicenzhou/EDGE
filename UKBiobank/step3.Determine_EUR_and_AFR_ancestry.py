@@ -11,7 +11,7 @@
 ##	      This script helps to assign the ancestry groups based on the UMAP results.
 ##	      The EUR was selected based on the UMAP results using n_neighbors = 200, min_distance = 0.1.
 ##	        Individuals were selected as EUR using UMAP1 < 10 and UMAP2 < 15.
-## 		    The AFR was selected based on the UMAP results using n_neighbors = 250, min_distance = 0 (more distinct groups).
+##	      The AFR was selected based on the UMAP results using n_neighbors = 250, min_distance = 0 (more distinct groups).
 ##	        Individuals were selected as EUR using UMAP1 > 12.5 and UMAP2 > 5.5.
 ## 																																	
 ## ---------------------------------------------------------------------------------------------------------------------------- 
