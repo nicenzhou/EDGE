@@ -8,7 +8,7 @@
 ## ---------------------------------------------------------------------------------------------------------------------------- 
 ## 
 ## 	Details:																														
-## 		  This script used UMAP to re-classify individuals into different ancestry groups based on their PCs from genetics.
+##	      This script used UMAP to re-classify individuals into different ancestry groups based on their PCs from genetics.
 ##	      UMAP is recommended to run on everyone. 
 ##	      Using the Data-Field 22009 as input for UMAP: https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22009
 ##	      All individuals were included: 19,525,280 items of data are available, covering 488,132 participants.
