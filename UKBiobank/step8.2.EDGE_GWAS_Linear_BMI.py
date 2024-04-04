@@ -18,6 +18,8 @@
 ## ---------------------------------------------------------------------------------------------------------------------------- 
 ## 
 ## 	Reference:
+##	      EDGE GWAS: 
+##	        Zhou, J.  et al. Flexibly encoded GWAS identifies novel nonadditive SNPs in individuals of African and European ancestry. 
 ##	      Pandas-plink in python:
 ##	          https://pandas-plink.readthedocs.io/en/latest/index.html
 ##	      EDGE algorithm in GxG: 
@@ -36,15 +38,15 @@ import numpy as np
 import time
 from pandas_plink import read_plink1_bin
 
-G = read_plink1_bin("/{PATH}/ukb21007_c1_bmi_{eur/afr}_hardcall8_qced_reordered.bed", 
-                    "/{PATH}/ukb21007_c1_bmi_{eur/afr}_hardcall8_qced_reordered.bim", 
-                    "/{PATH}/ukb21007_c1_bmi_{eur/afr}_hardcall8_qced_reordered.fam", verbose=True)
+G = read_plink1_bin("ukb21007_c1_bmi_{eur/afr}_hardcall8_qced_reordered.bed", 
+                    "ukb21007_c1_bmi_{eur/afr}_hardcall8_qced_reordered.bim", 
+                    "ukb21007_c1_bmi_{eur/afr}_hardcall8_qced_reordered.fam", verbose=True)
 
-train_df = pd.read_csv("/{PATH}/train_df_bmi_{eur/afr}.csv", header=0, index_col=0)
+train_df = pd.read_csv("train_df_bmi_{eur/afr}.csv", header=0, index_col=0)
 train_df.set_index('IID', inplace=True)
-test_df = pd.read_csv("/{PATH}/test_df_bmi_{eur/afr}.csv", header=0, index_col=0)
+test_df = pd.read_csv("test_df_bmi_{eur/afr}.csv", header=0, index_col=0)
 test_df.set_index('IID', inplace=True)
-covariates_shared = pd.read_csv("/{PATH}/covariates_shared_bmi_{eur/afr}.txt", header=0, index_col=0, sep="\t")
+covariates_shared = pd.read_csv("covariates_shared_bmi_{eur/afr}.txt", header=0, index_col=0, sep="\t")
 
 import statsmodels.api as sm
 import joblib
