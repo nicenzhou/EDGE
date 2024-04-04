@@ -18,6 +18,11 @@
 ## ---------------------------------------------------------------------------------------------------------------------------- 
 ## 
 ## 	Reference:
+##	      EDGE GWAS: 
+##	        Zhou, J. et al. Flexibly encoded GWAS identifies novel nonadditive SNPs in individuals of African and European ancestry.
+##	        medRxiv 2023.06.01.23290857; doi: https://doi.org/10.1101/2023.06.01.23290857 
+##	      EDGE GxG: 
+##	        Hall, M. A. et al. Novel EDGE encoding method enhances ability to identify genetic interactions. PLoS Genetics 17, e1009534 (2021).
 ##	      UMAP-learn in python:
 ##	          https://umap-learn.readthedocs.io/en/latest/index.html
 ##	      Supplementary Materials S3.3.2 Details of PCA for release:
@@ -71,7 +76,7 @@ from bokeh.palettes import RdGy
 # Read PC table
 import pandas as pd
 ukbb_pcs = pd.read_table(
-    "/{PATH}/ukbb_pcs_full.csv",
+    "ukbb_pcs_full.csv",
     index_col="IID")
 
 # Run UMAP and tSNE on PCs
@@ -94,7 +99,7 @@ proj_umap_pca_df.to_csv('proj_umap_pca_20_500_00.csv', sep='\t', na_rep='NA', qu
 ## Visualize the UMAP results
 # ------------------------------------- #
 # Obtain self-reported ethnic group
-ukbb_info = pd.read_table("/{PATH}/ukbb_info_full.csv",index_col="FID")
+ukbb_info = pd.read_table("ukbb_info_full.csv",index_col="FID")
 
 ukbb_full = pd.concat( [ukbb_info, proj_umap_pca_df], axis=1 )
 
