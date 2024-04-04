@@ -29,6 +29,7 @@
 ## EDGE alpha calculation
 ## AND
 ## EDGE GWAS (alpha application)
+## An illustration using chromosome 1
 # ------------------------------------- #
 import pandas as pd
 import numpy as np
@@ -38,9 +39,9 @@ import statsmodels.api as sm
 from joblib import Parallel, delayed
 from scipy.special import expit
 
-G = read_plink1_bin("/{PATH}/ukb21007_c{1..22)_cad_{eur/afr}_hardcall8_qced_reordered.bed", 
-                    "/{PATH}/ukb21007_c{1..22)_cad_{eur/afr}_hardcall8_qced_reordered.bim", 
-                    "/{PATH}/ukb21007_c{1..22)_cad_{eur/afr}_hardcall8_qced_reordered.fam", verbose=True)
+G = read_plink1_bin("/{PATH}/ukb21007_c1_cad_{eur/afr}_hardcall8_qced_reordered.bed", 
+                    "/{PATH}/ukb21007_c1_cad_{eur/afr}_hardcall8_qced_reordered.bim", 
+                    "/{PATH}/ukb21007_c1_cad_{eur/afr}_hardcall8_qced_reordered.fam", verbose=True)
 
 train_df = pd.read_csv("/{PATH}/train_df_{eur/afr}.csv", header=0, index_col=0)
 train_df.set_index('IID', inplace=True)
