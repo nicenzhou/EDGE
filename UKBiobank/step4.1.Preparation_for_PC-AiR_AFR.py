@@ -1,6 +1,6 @@
 ##################################################################################################################################
 ## 																																
-## 	Script Name: step4.Preparation_for_PC-AiR_AFR.py							
+## 	Script Name: step4.1.Preparation_for_PC-AiR_AFR.py							
 ## 	Description: This script contains codes for QCing the raw genotypes (bim/bed/fam) and imputed genotypes (BGEN).
 ## 	Requirement: PLINK1.9 and/or PLINK2 needs for running the genotype QC.				
 ## 	Authors: Jiayan Zhou <jyzhou@stanford.edu>																																												
