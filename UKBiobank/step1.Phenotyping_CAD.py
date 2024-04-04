@@ -2,7 +2,7 @@
 ## 																																
 ## 	Script Name: step1.Phenotyping_CAD.py														
 ## 	Description: Phenotype determination for UKB participants using Spark Python.
-##  WARNING: This has to be run on UK Biobank RAP using Spark Python. 				
+## 	Requirement: This has to be run on UK Biobank RAP using Spark Python. 				
 ## 	Authors: Jiayan Zhou <jyzhou@stanford.edu>																																												
 ## 																																
 ## ---------------------------------------------------------------------------------------------------------------------------- 
