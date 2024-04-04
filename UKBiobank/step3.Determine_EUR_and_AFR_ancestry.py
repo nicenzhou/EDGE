@@ -17,7 +17,11 @@
 ## ---------------------------------------------------------------------------------------------------------------------------- 
 ## 
 ## 	Reference:																														
-##	      NONE
+##	      EDGE GWAS: 
+##	        Zhou, J. et al. Flexibly encoded GWAS identifies novel nonadditive SNPs in individuals of African and European ancestry.
+##	        medRxiv 2023.06.01.23290857; doi: https://doi.org/10.1101/2023.06.01.23290857 
+##	      EDGE GxG: 
+##	        Hall, M. A. et al. Novel EDGE encoding method enhances ability to identify genetic interactions. PLoS Genetics 17, e1009534 (2021).
 ## 				
 ##################################################################################################################################
 
@@ -38,12 +42,12 @@ import matplotlib.pyplot as plt
 # ------------------------------------- #
 ## Read info and UMAP results files
 # ------------------------------------- #
-case = pd.read_table("/{PATH}/case_output_full.csv",index_col=0)
-phenotype = pd.read_table("/{PATH}/phenotype_full.csv",index_col=0)
+case = pd.read_table("case_output_full.csv",index_col=0)
+phenotype = pd.read_table("phenotype_full.csv",index_col=0)
 
-umap_result_200_01 = pd.read_table("/{PATH}/proj_umap_pca_200_01.csv",sep="\t")
-umap_result_250_00 = pd.read_table("/{PATH}/proj_umap_pca_250_00.csv",sep="\t")
-ukbb_info = pd.read_table("/{PATH}/ukbb_info_full.csv",index_col=0)
+umap_result_200_01 = pd.read_table("proj_umap_pca_200_01.csv",sep="\t")
+umap_result_250_00 = pd.read_table("proj_umap_pca_250_00.csv",sep="\t")
+ukbb_info = pd.read_table("ukbb_info_full.csv",index_col=0)
 
 
 # ------------------------------------- #
@@ -99,7 +103,7 @@ print( ukbb_full.groupby(["sex", "self_reported_ethnic_group"])["self_reported_e
 ## Remove individuals who were dropped
 # ------------------------------------- #
 #  Remove the individuals who have been withdrawn from the study
-list_removed = pd.read_table("/{PATH}/w52374_2023-04-25.csv",sep="\t",header = None)
+list_removed = pd.read_table("w52374_2023-04-25.csv",sep="\t",header = None)
 list_removed = list_removed.rename(columns={0: "IID"})
  
 iid_col = 'IID'
@@ -144,4 +148,4 @@ Pheno_pcs = pd.merge(Pheno_pcs,ukbb_full_pcs_{eur/afr})[["IID","CAD","sex","age_
 Pheno_pcs.to_csv('pheno_pcs_full_{eur/afr}.txt', sep='\t', na_rep='NA', index=False, quoting=3)
 
 # Upload all result files
-!dx upload *.txt *.csv *.png --path /{PATH}/ --brief
+!dx upload *.txt *.csv *.png --path {PATH} --brief
