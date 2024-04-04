@@ -1,6 +1,6 @@
 ##################################################################################################################################
 ## 																																
-## 	Script Name: step5.Re-calculate_PCs_for_AFR.R											
+## 	Script Name: step5.Re-calculate_PCs_PC-AiR_AFR.R											
 ## 	Description: PCA was limited to unrelated individuals for AFR using PC-AiR. This script prepares the input for PC-AiR.
 ## 	Requirement: A QC through PLINK has to be done to the BEGN files and raw genotype calls. PC-AiR needs to be run in R. 				
 ## 	Authors: Jiayan Zhou <jyzhou@stanford.edu>																																												
