@@ -16,6 +16,11 @@
 ## ---------------------------------------------------------------------------------------------------------------------------- 
 ## 
 ## 	Reference:
+##	      EDGE GWAS: 
+##	        Zhou, J. et al. Flexibly encoded GWAS identifies novel nonadditive SNPs in individuals of African and European ancestry.
+##	        medRxiv 2023.06.01.23290857; doi: https://doi.org/10.1101/2023.06.01.23290857 
+##	      EDGE GxG: 
+##	        Hall, M. A. et al. Novel EDGE encoding method enhances ability to identify genetic interactions. PLoS Genetics 17, e1009534 (2021).
 ##	      PLINK1.9 and PLINK2 installation and usage:
 ##	        https://www.cog-genomics.org/plink/1.9/
 ##	        https://www.cog-genomics.org/plink/2.0/
