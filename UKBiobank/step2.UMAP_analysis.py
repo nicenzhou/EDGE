@@ -2,7 +2,7 @@
 ## 																																
 ## 	Script Name: step2.UMAP_analysis.py														
 ## 	Description: UMAP analysis for ancestry re-classifications, especially to obtain European- and African-ancestry populations.
-##  Requirement: This script needs tables from step1. umap-learn Python package is required. No need for the spark Python. 				
+## 	Requirement: This script needs tables from step1. umap-learn Python package is required. No need for the spark Python. 				
 ## 	Authors: Jiayan Zhou <jyzhou@stanford.edu>																																												
 ## 																																
 ## ---------------------------------------------------------------------------------------------------------------------------- 
