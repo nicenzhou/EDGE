@@ -16,8 +16,8 @@
 ## ---------------------------------------------------------------------------------------------------------------------------- 
 ## 
 ## 	Reference:																														
-## 			The first part of the codes for data dispensing is from UKB OpenBio:
-## 			    https://github.com/dnanexus/OpenBio/blob/master/UKB_notebooks/ukb-rap-pheno-basic.ipynb
+##        The first part of the codes for data dispensing is from UKB OpenBio:
+##            https://github.com/dnanexus/OpenBio/blob/master/UKB_notebooks/ukb-rap-pheno-basic.ipynb
 ## 				
 ##################################################################################################################################
 
