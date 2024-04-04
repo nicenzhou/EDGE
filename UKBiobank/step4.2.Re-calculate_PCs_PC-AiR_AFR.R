@@ -13,6 +13,11 @@
 ## ---------------------------------------------------------------------------------------------------------------------------- 
 ## 
 ## 	Reference:
+##	      EDGE GWAS: 
+##	        Zhou, J. et al. Flexibly encoded GWAS identifies novel nonadditive SNPs in individuals of African and European ancestry.
+##	        medRxiv 2023.06.01.23290857; doi: https://doi.org/10.1101/2023.06.01.23290857 
+##	      EDGE GxG: 
+##	        Hall, M. A. et al. Novel EDGE encoding method enhances ability to identify genetic interactions. PLoS Genetics 17, e1009534 (2021).
 ##	      PC-AiR/Population Structure and Relatedness Inference using the GENESIS Package:
 ##	        https://bioconductor.org/packages/devel/bioc/vignettes/GENESIS/inst/doc/pcair.html
 ## 				
@@ -35,9 +40,9 @@ library(SNPRelate)
 library(GENESIS)
 library(GWASTools)
 
-snpgdsBED2GDS(bed.fn = "/{PATH}/geno_merged_afr_full_r.bed", 
-              bim.fn = "/{PATH}/geno_merged_afr_full_r.bim", 
-              fam.fn = "/{PATH}/geno_merged_afr_full_r.fam", 
+snpgdsBED2GDS(bed.fn = "geno_merged_afr_full_r.bed", 
+              bim.fn = "geno_merged_afr_full_r.bim", 
+              fam.fn = "geno_merged_afr_full_r.fam", 
               out.gdsfn = "geno_merged_afr_full_r.gds")
 
 showfile.gds(closeall=TRUE)
