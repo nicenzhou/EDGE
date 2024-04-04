@@ -18,10 +18,10 @@
 ## ---------------------------------------------------------------------------------------------------------------------------- 
 ## 
 ## 	Reference:
-## 			UMAP-learn in python:
-## 			    https://umap-learn.readthedocs.io/en/latest/index.html
-## 			Supplementary Materials S3.3.2 Details of PCA for release:
-## 			    https://www.biorxiv.org/content/10.1101/166298v1
+##	      UMAP-learn in python:
+##	          https://umap-learn.readthedocs.io/en/latest/index.html
+##	      Supplementary Materials S3.3.2 Details of PCA for release:
+##	          https://www.biorxiv.org/content/10.1101/166298v1
 ## 				
 ##################################################################################################################################
 
