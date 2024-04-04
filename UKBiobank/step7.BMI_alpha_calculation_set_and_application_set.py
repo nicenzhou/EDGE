@@ -16,6 +16,9 @@
 ## ---------------------------------------------------------------------------------------------------------------------------- 
 ## 
 ## 	Reference:
+##	      EDGE GWAS: 
+##	        Zhou, J. et al. Flexibly encoded GWAS identifies novel nonadditive SNPs in individuals of African and European ancestry.
+##	        medRxiv 2023.06.01.23290857; doi: https://doi.org/10.1101/2023.06.01.23290857 
 ##	      EDGE algorithm in GxG: 
 ##	        Hall, M. A. et al. Novel EDGE encoding method enhances ability to identify genetic interactions. PLoS Genetics 17, e1009534 (2021).
 ## 				
@@ -97,9 +100,9 @@ df_phenotype.to_csv('BMI_forall.csv', sep='\t', na_rep='NA', quoting=3)
 # ------------------------------------- #
 ## BMI training and test sets
 # ------------------------------------- #
-train_df = pd.read_csv("/{PATH}/train_df_{eur/afr}.csv", header=0, index_col=0)
-test_df = pd.read_csv("/{PATH}//test_df_{eur/afr}.csv", header=0, index_col=0)
-bmi_df = pd.read_csv("/{PATH}//BMI_forall.csv", header=0, index_col=0, sep="\t")
+train_df = pd.read_csv("train_df_{eur/afr}.csv", header=0, index_col=0)
+test_df = pd.read_csv("/test_df_{eur/afr}.csv", header=0, index_col=0)
+bmi_df = pd.read_csv("/BMI_forall.csv", header=0, index_col=0, sep="\t")
 
 # Obtain the BMI at enrollment
 bmi_df_at_enrollment = bmi_df[['IID', 'BMI_Instance_0']]
