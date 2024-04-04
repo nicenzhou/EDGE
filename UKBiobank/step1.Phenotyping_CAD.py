@@ -8,7 +8,7 @@
 ## ---------------------------------------------------------------------------------------------------------------------------- 
 ## 
 ## 	Details:																														
-## 		    This script was used to classify the individuals into CAD cases and controls using:
+##        This script was used to classify the individuals into CAD cases and controls using:
 ##	         ICD9, ICD10, OPCS4, Vascular_heart_problems_diagnosed_by_doctor, Non_cancer_illness_code, and Operation_code.
 ##        This script also contains codes that help to extract the first 20 PCs for step 2 to run a UMAP for further 
 ##           ancestry classification. A PCA plot was also generated for visualizing the PC1 and PC2. 
