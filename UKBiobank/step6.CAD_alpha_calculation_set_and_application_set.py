@@ -15,7 +15,10 @@
 ## ---------------------------------------------------------------------------------------------------------------------------- 
 ## 
 ## 	Reference:
-##	      EDGE algorithm in GxG: 
+##	      EDGE GWAS: 
+##	        Zhou, J. et al. Flexibly encoded GWAS identifies novel nonadditive SNPs in individuals of African and European ancestry.
+##	        medRxiv 2023.06.01.23290857; doi: https://doi.org/10.1101/2023.06.01.23290857 
+##	      EDGE GxG: 
 ##	        Hall, M. A. et al. Novel EDGE encoding method enhances ability to identify genetic interactions. PLoS Genetics 17, e1009534 (2021).
 ## 				
 ##################################################################################################################################
@@ -34,7 +37,7 @@ from sklearn.model_selection import train_test_split
 # ------------------------------------- #
 ## AFR CAD
 # ------------------------------------- #
-pheno = pd.read_csv("/{PATH}/pheno_pcairpc_afr.txt", delim_whitespace=True) 
+pheno = pd.read_csv("pheno_pcairpc_afr.txt", delim_whitespace=True) 
 
 # Separate features (X) and target variable (y)
 X = pheno.drop(columns=['CAD'])  # Features
@@ -55,7 +58,7 @@ test_df.to_csv('test_df_afr.csv', index=True, header=True)
 # ------------------------------------- #
 ## EUR CAD
 # ------------------------------------- #
-pheno = pd.read_csv("/{PATH}/pheno_pcs_full_eur.txt", delim_whitespace=True) 
+pheno = pd.read_csv("pheno_pcs_full_eur.txt", delim_whitespace=True) 
 
 # Separate features (X) and target variable (y)
 X = pheno.drop(columns=['CAD'])  # Features
