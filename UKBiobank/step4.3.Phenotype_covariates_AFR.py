@@ -1,6 +1,6 @@
 ##################################################################################################################################
 ## 																																
-## 	Script Name: step6.Phenotype_covariates_AFR.py										
+## 	Script Name: step4.3.Phenotype_covariates_AFR.py										
 ## 	Description: This script prepares the CAD phenotype with PCs from PC-AiR for the AFR population.
 ## 	Requirement: The phenotype file and PC file from previous steps. 			
 ## 	Authors: Jiayan Zhou <jyzhou@stanford.edu>																																												
