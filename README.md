@@ -83,14 +83,16 @@ Zhou, J., Rico, A. L. G., Guare, L., Million Veteran Program, Chang, K. M., Tsao
   year={2023},
   publisher={Cold Spring Harbor Laboratory Press},
   doi={10.1101/2023.06.01.23290857}
-}```
+}
+```
 
-MIT License
+## License
 
-Copyright (c) 2023 Jiayan Zhou, Andre Luis Garao Rico, Lindsay Guare, Kyong-Mi Chang, Philip S. Tsao, Themistocles L. Assimes, Shefali Setia Verma, Molly Ann Hall
+### Non-Commercial Use
+This software is freely available for academic research, educational purposes, and use by non-profit organizations under the Academic Free License (AFL) 3.0.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+### Commercial Use
+Use of this software for commercial purposes requires a separate license agreement. For commercial licensing inquiries, please contact:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+**Jiayan Zhou** - jyzhou@stanford.edu  
+**Molly Ann Hall** - molly.hall@pennmedicine.upenn.edu
