@@ -48,9 +48,18 @@ This flexible approach allows EDGE to identify the optimal genetic encoding for 
 
 ## Applications
 
-EDGE GWAS analysis identified nonadditive inheritance patterns for more than 52% of genome-wide significant loci for:
-- Coronary artery disease (CAD)
-- Body mass index (BMI)
+### Large-Scale GWAS Implementation
+
+EDGE was applied to genome-wide association studies using:
+1. **UK Biobank (UKB)**: Calculate encoding parameter $\alpha$ for each SNP
+2. **Million Veteran Program (MVP)**: Independent validation
+3. **Meta-analysis**: Combined UKB and MVP results (>500,000 individuals)
+
+### Key Findings
+
+EDGE GWAS meta-analysis identified **nonadditive inheritance patterns for more than 52% of genome-wide significant loci** for:
+- **Coronary artery disease (CAD)**
+- **Body mass index (BMI)**
 
 This research:
 - Identifies novel disease-risk SNPs missed by traditional additive models
