@@ -86,13 +86,14 @@ Zhou, J., Rico, A. L. G., Guare, L., Million Veteran Program, Chang, K. M., Tsao
 }
 ```
 
+## Contact
+
+**Corresponding Author:**  
+Molly Ann Hall - molly.hall@pennmedicine.upenn.edu
+
+**For questions about the code:**  
+Jiayan Zhou - jyzhou@stanford.edu
+
 ## License
 
-### Non-Commercial Use
-This software is freely available for academic research, educational purposes, and use by non-profit organizations under the Academic Free License (AFL) 3.0.
-
-### Commercial Use
-Use of this software for commercial purposes requires a separate license agreement. For commercial licensing inquiries, please contact:
-
-**Jiayan Zhou** - jyzhou@stanford.edu  
-**Molly Ann Hall** - molly.hall@pennmedicine.upenn.edu
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](www.gnu.org)
