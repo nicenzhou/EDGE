@@ -30,7 +30,7 @@ Where:
 - $$\beta_{Het}$$ = effect size for heterozygous genotype (from Equation 1)
 - $$\beta_{HA}$$ = effect size for homozygous alternate genotype (from Equation 1)
 
-### Inheritance Model Classification
+## Inheritance Model Classification
 
 The encoding parameter `α` determines the inheritance pattern for each SNP:
 
