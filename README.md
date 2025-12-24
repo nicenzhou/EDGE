@@ -95,6 +95,6 @@ Molly Ann Hall - molly.hall@pennmedicine.upenn.edu
 Jiayan Zhou - jyzhou@stanford.edu
 
 ## License
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-![LGPL Logo](https://www.gnu.org/graphics/lgplv3-88x31.png)
+![GPL Logo](https://www.gnu.org/graphics/gplv3-88x31.png)
