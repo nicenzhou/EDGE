@@ -21,6 +21,7 @@ Where:
 - `β_HA` = effect size for homozygous alternate genotype
 - `β_cov_i` = effect sizes for covariates
 
+
 **Equation 2: Encoding Parameter**
 
 $$\alpha = \frac{\beta_{Het}}{\beta_{HA}}$$
