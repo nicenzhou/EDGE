@@ -2,11 +2,7 @@
 
 ## Overview
 
-EDGE (Elastic Data-Driven Encoding) is a novel method for genome-wide association studies (GWAS) that determines the inheritance model each SNP contributes to a given trait, allowing for unique and flexible SNP encoding. Unlike traditional GWAS that assume an additive inheritance model, EDGE can identify additive and also nonadditive effects, including dominant and recessive patterns.
-
-## Background
-
-Most GWAS assume an additive inheritance model, which assigns heterozygous genotypes half the risk of homozygous-alternate genotypes. This has led to a focus on additive genetic effects in complex disease research. Growing evidence indicates that many single-nucleotide polymorphisms (SNPs) have nonadditive effects, including dominant and recessive effects, which are missed by the additive model alone.
+Most GWAS assume an additive inheritance model, which assigns heterozygous genotypes half the risk of homozygous-alternate genotypes. This has led to a focus on additive genetic effects in complex disease research. Growing evidence indicates that many single-nucleotide polymorphisms (SNPs) have nonadditive effects, including dominant and recessive effects, which are missed by the additive model alone. EDGE (Elastic Data-Driven Encoding) is a novel method for genome-wide association studies (GWAS) that determines the inheritance model each SNP contributes to a given trait, allowing for unique and flexible SNP encoding. Unlike traditional GWAS that assume an additive inheritance model, EDGE can identify additive and also nonadditive effects, including dominant and recessive patterns.
 
 ## Statistical Model
 
