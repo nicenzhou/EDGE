@@ -13,14 +13,14 @@ EDGE employs a flexible encoding approach based on a regression model that separ
 $$E(Y | SNP_{Het}, SNP_{HA}, COV_i) = \beta_0 + \beta_{Het} \cdot SNP_{Het} + \beta_{HA} \cdot SNP_{HA} + \sum_{i} \beta_{cov_i} \cdot COV_i$$
 
 Where:
-- `Y` = phenotype/outcome
-- `SNP_Het` = indicator for heterozygous genotype
-- `SNP_HA` = indicator for homozygous alternate genotype
-- `COV_i` = covariates
-- `β_Het` = effect size for heterozygous genotype
-- `β_HA` = effect size for homozygous alternate genotype
-- `β_cov_i` = effect sizes for covariates
-
+- $Y$ = phenotype/outcome
+- $SNP_{Het}$ = indicator for heterozygous genotype
+- $SNP_{HA}$ = indicator for homozygous alternate genotype
+- $COV_i$ = covariates
+- $\beta_{Het}$ = effect size for heterozygous genotype
+- $\beta_{HA}$ = effect size for homozygous alternate genotype
+- $\beta_{cov_i}$ = effect sizes for covariates
+- 
 **Equation 2: Encoding Parameter**
 
 $$\alpha = \frac{\beta_{Het}}{\beta_{HA}}$$
