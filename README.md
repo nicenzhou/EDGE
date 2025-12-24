@@ -13,7 +13,7 @@ Most GWAS assume an additive inheritance model, which assigns heterozygous genot
 EDGE employs a flexible encoding approach based on a regression model that separately estimates effects for heterozygous and homozygous alternate genotypes:
 
 **Equation 1: Regression Model**
-E(Y | SNP_Het, SNP_HA, COV_i) = β₀ + β_Het·SNP_Het + β_HA·SNP_HA + Σᵢ β_cov_i·COV_i
+$$E(Y | SNP_{Het}, SNP_{HA}, COV_i) = \beta_0 + \beta_{Het} \cdot SNP_{Het} + \beta_{HA} \cdot SNP_{HA} + \sum_{i} \beta_{cov_i} \cdot COV_i$$
 
 Where:
 - `Y` = phenotype/outcome
@@ -25,7 +25,7 @@ Where:
 - `β_cov_i` = effect sizes for covariates
 
 **Equation 2: Encoding Parameter**
-α = β_Het / β_HA
+$$\alpha = \frac{\beta_{Het}}{\beta_{HA}}$$
 
 ### Inheritance Model Classification
 
