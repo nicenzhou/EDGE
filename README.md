@@ -21,10 +21,14 @@ Where:
 - `β_HA` = effect size for homozygous alternate genotype
 - `β_cov_i` = effect sizes for covariates
 
-
 **Equation 2: Encoding Parameter**
 
 $$\alpha = \frac{\beta_{Het}}{\beta_{HA}}$$
+
+Where:
+- $$\alpha$$ = encoding parameter representing the ratio of heterozygous to homozygous alternate effects
+- $$\beta_{Het}$$ = effect size for heterozygous genotype (from Equation 1)
+- $$\beta_{HA}$$ = effect size for homozygous alternate genotype (from Equation 1)
 
 ### Inheritance Model Classification
 
