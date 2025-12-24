@@ -1,14 +1,12 @@
 # EDGE: Elastic Data-Driven Encoding for GWAS
 
-Flexibly encoded genome-wide association study identifies novel nonadditive genetic risk variants for cardiometabolic traits
-
 ## Overview
 
 EDGE (Elastic Data-Driven Encoding) is a novel method for genome-wide association studies (GWAS) that determines the inheritance model each SNP contributes to a given trait, allowing for unique and flexible SNP encoding. Unlike traditional GWAS that assume an additive inheritance model, EDGE can identify nonadditive effects, including dominant and recessive patterns.
 
 ## Background
 
-Most genome-wide association studies (GWAS) assume an additive inheritance model, which assigns heterozygous genotypes half the risk of homozygous-alternate genotypes. This has led to a focus on additive genetic effects in complex disease research. Growing evidence indicates that many single-nucleotide polymorphisms (SNPs) have nonadditive effects, including dominant and recessive effects, which are missed by the additive model alone.
+Most GWAS assume an additive inheritance model, which assigns heterozygous genotypes half the risk of homozygous-alternate genotypes. This has led to a focus on additive genetic effects in complex disease research. Growing evidence indicates that many single-nucleotide polymorphisms (SNPs) have nonadditive effects, including dominant and recessive effects, which are missed by the additive model alone.
 
 ## Applications
 
@@ -49,3 +47,10 @@ Jiayan Zhou - jyzhou@stanford.edu
 
 If you use EDGE in your research, please cite: 
 Zhou J, Rico ALG, Guare L, et al. Flexibly encoded genome-wide association study identifies novel nonadditive genetic risk variants for cardiometabolic traits. [Journal TBD]
+
+## Abstract
+Abstract
+Background: Most genome-wide association studies (GWAS) assume an additive inheritance model, which assigns heterozygous genotypes half the risk of homozygous-alternate genotypes. This has led to a focus on additive genetic effects in complex disease research. Growing evidence indicates that many single-nucleotide polymorphisms (SNPs) have nonadditive effects, including dominant and recessive effects, which are missed by the additive model alone. 
+Results: To address this issue, we developed Elastic Data-Driven Encoding (EDGE) to determine the inheritance model each SNP contributes to a given trait, allowing for unique and flexible SNP encoding in GWAS. Simulation results demonstrate that EDGE provides higher power than additive and other genetic encoding models across a wide range of simulated inheritance patterns while maintaining a conserved false positive rate. EDGE GWAS on data from the UK BioBank and the Million Veteran Program, comprising more than 500,000 individuals, identified nonadditive inheritance patterns for more than 52% of the genome-wide significant loci for coronary artery disease and body mass index. 
+Conclusions: This research lays the groundwork for integrating nonadditive genetic effects into GWAS workflows to identify novel disease-risk SNPs, which may ultimately improve polygenic risk prediction in diverse populations and provide a springboard for future applications to thousands of disease phenotypes.
+
