@@ -1,6 +1,6 @@
 # EDGE: Elastic Data-Driven Encoding for GWAS
 
-**📦 Python Package Available:** A pip-installable Python package for EDGE analysis is now available at 
+**💿 Python Package Available:** A pip-installable Python package for EDGE analysis is now available at 
 
 [https://github.com/nicenzhou/edge-gwas](https://github.com/nicenzhou/edge-gwas). 
 
