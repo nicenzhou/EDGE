@@ -1,5 +1,12 @@
 # EDGE: Elastic Data-Driven Encoding for GWAS
 
+**📦 Python Package Available:** A pip-installable Python package for EDGE analysis is now available at [https://github.com/nicenzhou/edge-gwas](https://github.com/nicenzhou/edge-gwas). Version 0.1.0 is currently under public testing. Please report any issues or feedback through the GitHub repository.
+
+```bash
+# Install EDGE Python package
+pip install git+https://github.com/nicenzhou/edge-gwas.git
+```
+
 ## Overview
 
 Most GWAS assume an additive inheritance model, which assigns heterozygous genotypes half the risk of homozygous-alternate genotypes. This has led to a focus on additive genetic effects in complex disease research. Growing evidence indicates that many single-nucleotide polymorphisms (SNPs) have nonadditive effects, including dominant and recessive effects, which are missed by the additive model alone. EDGE (Elastic Data-Driven Encoding) is a novel method for genome-wide association studies (GWAS) that determines the inheritance model each SNP contributes to a given trait, allowing for unique and flexible SNP encoding. Unlike traditional GWAS that assume an additive inheritance model, EDGE can identify additive and also nonadditive effects, including dominant and recessive patterns.
