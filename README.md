@@ -75,7 +75,7 @@ Zhou, J., Rico, A. L. G., Guare, L., Million Veteran Program, Chang, K. M., Tsao
 
 **BibTeX:**
 ```bibtex
-@article{zhou2023flexibly,
+@article{zhou2023edgegwas,
   title={Flexibly encoded genome-wide association study identifies novel nonadditive genetic risk variants for cardiometabolic traits},
   author={Zhou, Jiayan and Rico, Andre Luis Garao and Guare, Lindsay and Million Veteran Program and Chang, Kyong-Mi and Tsao, Philip S and Assimes, Themistocles L and Verma, Shefali Setia and Hall, Molly Ann},
   journal={medRxiv},
